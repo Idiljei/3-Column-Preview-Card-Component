@@ -1,13 +1,15 @@
-/* .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); } */
+body{
+  display: flex;
+  padding: 16px; 
+}
 
 .flex-container {
   display: flex; 
   background-color: #f1f1f1;
-  font-size: 15px;
-  border-radius: 5%;
+  /* font-size: 15px; */
   height: 25rem;
-  margin: 20em 20em 20em 20em;
+  width: 1000px;
+  margin: 10em 10em 10em 10em;
 }
 
 .card-1 {
@@ -15,7 +17,9 @@
   flex-direction: column;
   flex-grow: 1;
   background-color:	#e38826; 
-  height: 25rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px 20px 10px 20px;
 }
 
 
@@ -24,6 +28,8 @@
   flex-direction: column;
   flex-grow: 1;
   background-color: #006970; 
+  padding: 10px 20px 10px 20px;
+
 }
 
 .card-3{
@@ -31,14 +37,16 @@
   flex-direction: column;
   flex-grow: 1;
   background-color: #004241; 
-  height: v;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 20px 10px 20px;
+
 }
 
 .logo-box {
   display: flex; 
   flex-direction: column;
   flex-grow: 0.5; 
-  background-color: red;
   margin: 1rem 1rem 0 1rem; 
   font-family: 'Big Shoulders Display', cursive;
 
@@ -48,25 +56,25 @@
   display: flex; 
   flex-direction: column;
   flex-grow: 2; 
-  /* background-color: blue; */
   margin: 0rem 1rem 0 1rem; 
   font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
   color: white;
 
 }
 
 .title {
   font-family: 'Big Shoulders Display', cursive;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .button-box {
   display: flex; 
   flex-direction: column;
   flex-grow: 1; 
-  /* background-color: green; */
   margin: 1rem 1rem 1rem 1rem; 
-  align-items: center;
+  align-items: flex-start;
 }
 
 .button {
@@ -76,7 +84,13 @@
   border-radius: 12px;
   padding: 5px 20px 5px 20px;
   margin-top: 2rem;
+  font-family: 'Big Shoulders Display', cursive;
+}
 
+#two.button {
+  color: #006970
+}
 
-
+#three.button {
+  color: #004241
 }
