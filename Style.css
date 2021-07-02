@@ -10,6 +10,7 @@ body{
   width: 1000px;
   margin: 10em 10em 10em 10em;
 }
+
 /* Individual cards */
 .card-1 {
   display: flex; 
@@ -48,7 +49,6 @@ body{
   flex-grow: 0.5; 
   margin: 1rem 1rem 0 1rem; 
   font-family: 'Big Shoulders Display', cursive;
-
 }
 
 .text-box {
@@ -60,7 +60,6 @@ body{
   font-size: 15px;
   font-weight: 200;
   color: white;
-
 }
 
 .title {
@@ -75,6 +74,7 @@ body{
   margin: 1rem 1rem 1rem 1rem; 
   align-items: flex-start;
 }
+
 .button {
   background-color:#f2f2f2;
   border: 2px solid #f2f2f2;
@@ -108,4 +108,27 @@ body{
   background-color: #004241;
   border: 1px solid #f2f2f2;
   color: #f2f2f2 ;
+}
+
+/* Responsive Design */
+@media (max-width: 999px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 0;
+  }
+  .card-1 {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+  }
+  .card-3 {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 10px;
+
+  }
+  body{
+    flex-direction: row;
+    height: 65em;
+  }
 }
