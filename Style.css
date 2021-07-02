@@ -6,12 +6,11 @@ body{
 .flex-container {
   display: flex; 
   background-color: #f1f1f1;
-  /* font-size: 15px; */
   height: 25rem;
   width: 1000px;
   margin: 10em 10em 10em 10em;
 }
-
+/* Individual cards */
 .card-1 {
   display: flex; 
   flex-direction: column;
@@ -42,7 +41,7 @@ body{
   padding: 10px 20px 10px 20px;
 
 }
-
+/* content */
 .logo-box {
   display: flex; 
   flex-direction: column;
@@ -68,7 +67,7 @@ body{
   font-family: 'Big Shoulders Display', cursive;
   font-size: 30px;
 }
-
+/* Buttons */
 .button-box {
   display: flex; 
   flex-direction: column;
@@ -76,7 +75,6 @@ body{
   margin: 1rem 1rem 1rem 1rem; 
   align-items: flex-start;
 }
-
 .button {
   background-color:#f2f2f2;
   border: 2px solid #f2f2f2;
@@ -87,10 +85,27 @@ body{
   font-family: 'Big Shoulders Display', cursive;
 }
 
+.button:hover {
+  background-color: #e38826;
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2 ;
+}
+
 #two.button {
   color: #006970
+}
+#two.button:hover {
+  background-color: #006970;
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2 ;
 }
 
 #three.button {
   color: #004241
+}
+
+#three.button:hover {
+  background-color: #004241;
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2 ;
 }
